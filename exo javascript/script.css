@@ -1,0 +1,43 @@
+#texte
+{
+    font-size: 2em;
+    font-family: 'Times New Roman', Times, serif;
+    color: gold;
+    text-align: center;
+    margin-top: 200px;
+    margin-left: 300px;
+}
+#square{
+border: 4px solid;
+background-color: aqua;
+height: 100px;
+width: 100px;
+margin-top: 200px;
+margin-left: 300px;
+}
+button
+{
+    margin-top: 200px;
+    padding-left: 30px; 
+    margin-left: 50px;
+}
+#image { 
+    position : absolute; 
+    left : 100px; 
+    top : 300px; 
+    height :100px; 
+    width : 100px; 
+    
+  } 
+
+.maClasse
+{
+    transition-property: transform;
+    transition-duration: 2s;
+    transition-timing-function: ease; /* Transition de type ease */ 
+}
+
+.maClasse:hover
+{
+    transform: translateY(-200px); /* On déplace l'objet */
+}

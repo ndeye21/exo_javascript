@@ -1,0 +1,63 @@
+<html>
+<head>
+	<title>
+		script
+    </title>
+    <link rel="stylesheet" href="script.css"> 
+	
+</head>
+<body>
+<div id="square"></div>
+<button onclick="augmenter();">augmenter</button>
+<button onclick="colorChange();">colorChange</button>
+<button onclick="initialColor();">initialColor</button>
+<button onclick="masquer();">masquer</button>
+<button onclick="visible();">visible</button>
+
+<script>
+var num=0;
+var carre=document.getElementById("square");
+function augmenter(){
+    if(num==0){
+        carre.style.width="150px"
+        carre.style.height="150px"
+        num=1;
+    }
+    else{
+        carre.style.width="100px"
+        carre.style.height="100px"
+        num=0;
+    }
+}
+function colorChange(){
+    carre.style.backgroundColor="green";
+
+}
+
+function initialColor(){
+    carre.style.backgroundColor="aqua";
+
+}
+
+function masquer(){
+   
+    
+    carre.style.visibility="hidden";
+    
+
+}
+
+function visible(){
+   
+    
+   carre.style.visibility="visible";
+   
+
+}
+
+
+
+</script>
+
+</body>
+</html>

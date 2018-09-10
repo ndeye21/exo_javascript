@@ -1,0 +1,31 @@
+<html>
+<head>
+	<title>
+		script
+    </title>
+    <link rel="stylesheet" href="script.css"> 
+	
+</head>
+<body>
+<span style="font-size:20px;" id="texte" onclick="changer()";>  je suis un texte!</span>
+<script>
+    var num=0;
+    var texte=document.getElementById('texte');
+    function changer (){
+        if(num==0){
+            texte.style.fontSize='40px';
+            num=1;
+        }
+        else
+        {
+           
+            texte.style.fontSize='20px';
+            num=0;
+
+        }
+        
+    }
+</script>
+
+</body>
+</html>
